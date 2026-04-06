@@ -1,0 +1,8 @@
+UI=> UI dikhana aur navigate handle karna (pages,components)
+
+hook=> state and api manage karna (hooks)
+
+state=>data store karna (auth.context.jsx,post.context.jsx)
+
+api => backend se communicate karne ke liye (services/auth.api.js)
+

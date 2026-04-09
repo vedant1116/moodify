@@ -6,6 +6,7 @@ const cors=require("cors")
 const app=express();
 
 const authRouter=require("./routes/user.routes")
+const songRouter=require("../src/routes/song.routes")
 
 app.use(cookieparser())
 app.use(express.json())
@@ -16,5 +17,6 @@ app.use(cors({
 }))
 
 app.use('/api/auth',authRouter)
+app.use('/api/songs',songRouter)
 module.exports=app;
 
